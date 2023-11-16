@@ -17,7 +17,7 @@ namespace Btllttq7
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Monan());
+            Application.Run(new KhachHang());
         }
     }
 }

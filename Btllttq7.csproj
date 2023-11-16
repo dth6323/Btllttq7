@@ -46,17 +46,59 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="CongDung.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="CongDung.Designer.cs">
+      <DependentUpon>CongDung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Donvitinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Donvitinh.designer.cs">
+      <DependentUpon>Donvitinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoaiMon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoaiMon.Designer.cs">
+      <DependentUpon>LoaiMon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Monan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Monan.designer.cs">
+      <DependentUpon>Monan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NoiHoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NoiHoc.designer.cs">
+      <DependentUpon>NoiHoc.cs</DependentUpon>
     </Compile>
     <Compile Include="ProcessDb.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Xeploai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xeploai.designer.cs">
+      <DependentUpon>Xeploai.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CongDung.resx">
+      <DependentUpon>CongDung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Donvitinh.resx">
+      <DependentUpon>Donvitinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoaiMon.resx">
+      <DependentUpon>LoaiMon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Monan.resx">
+      <DependentUpon>Monan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NoiHoc.resx">
+      <DependentUpon>NoiHoc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -67,6 +109,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Xeploai.resx">
+      <DependentUpon>Xeploai.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

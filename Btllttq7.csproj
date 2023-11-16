@@ -52,6 +52,12 @@
     <Compile Include="CongDung.Designer.cs">
       <DependentUpon>CongDung.cs</DependentUpon>
     </Compile>
+    <Compile Include="DauBep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DauBep.designer.cs">
+      <DependentUpon>DauBep.cs</DependentUpon>
+    </Compile>
     <Compile Include="Donvitinh.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +93,9 @@
     </Compile>
     <EmbeddedResource Include="CongDung.resx">
       <DependentUpon>CongDung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DauBep.resx">
+      <DependentUpon>DauBep.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Donvitinh.resx">
       <DependentUpon>Donvitinh.cs</DependentUpon>
